@@ -13,7 +13,7 @@ This allows for the easy creation of .pak mods for minecraft dungeons.
 ### Setup
 1. Edit `exampleConfig.json` to include the path to your UE install and rename it to `config.json`  
    * Example path would be `C:/Program Files/Epic/UE_4.22`
-2. Put your files in `source/`
+2. Put your asset files in `source/`
 3. Edit `exampleAssets.json` to include the information for each asset and rename it to `assets.json`
 4. Run `deno run --allow-write --allow-read --allow-run ./modmaker.ts` to run the program
 5. ???
@@ -41,7 +41,7 @@ Currently asset names have to be the same as the names in the destination.
 
 
 ### Todo list
-- [ ] Add support for operating on individual modules
+- [ ] Add support for chosing what modules to run instead of just running create mod
 - [ ] Add support for assets with different names than the destination
 - [ ] Fix up cooking and asset importing to make them os independent
 - [ ] Implement better error messages for checking assets.json
