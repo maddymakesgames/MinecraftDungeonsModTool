@@ -4,9 +4,10 @@ long name, I know
 This allows for the easy creation of .pak mods for minecraft dungeons.
 
 ### Dependencies
-1. Deno
+1. Currently must be using windows
+2. Deno
     * You can download Deno [here](https://deno.land/)
-2. Unreal Engine 4.22
+3. Unreal Engine 4.22
     * Install Unreal Engine (UE) from the [Epic Games launcher](https://www.unrealengine.com/en-US/)
 
 ### Setup
